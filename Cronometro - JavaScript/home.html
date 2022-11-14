@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="sound" src="alarm.mp3" style="display: none;"></audio>
+
+    <div class="title">Cronometro by @oemersonsa</div>
+
+    <div class="container">
+        <h2>Horas:</h2>
+        <select id="horas" name="horas"></select>
+
+        <h2>Minutos:</h2>
+        <select id="minutos" name="minutos"></select>
+
+        <h2>Segundos:</h2>
+        <select id="segundos" name="segundos"></select>
+        <br/>
+        <br/>
+
+        <button id="comecar">Começar!</button>
+        <div id="display">
+            <h3></h3>
+        </div><!--display-->
+    </div><!--container-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
